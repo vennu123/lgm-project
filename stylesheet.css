@@ -401,26 +401,6 @@ nav .menu-btn{
     }
     
 }
-@media(max-width:1140px){
-    .content{
-        width: 100%;
-    }
-    .model{
-        width: 400px;
-        height: 200px;
-    }
-    .main-text,.model{
-        margin: 10px;
-    }
-    .main-text h1{
-        font-size: 3rem;
-
-    }
-    .box1,.box2,.box3 {
-        flex-grow: 0.5; 
-    }
-    
-}
 @media(max-width:900px){
     nav{
         justify-content: space-between;
