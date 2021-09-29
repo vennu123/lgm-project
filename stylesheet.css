@@ -64,8 +64,6 @@ nav ul li a:hover{
     transition:all 0.3s ease;
 }
 .model img{
-    /* width: 100%; */
-    /* height: 100%; */
     margin-top: -120px;
      object-fit: content; 
 
@@ -119,25 +117,6 @@ nav ul li a:hover{
     transition: all ease 0.3s;
     cursor: pointer;
 }
-/*#skills{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 90%;
-    margin: auto auto 50px auto;
-    margin-top: -650px;
-}
-/*.skill-image {
-    width: 600px;
-    height: 600px;
-
-}
-.skill-image img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    float: right;
-}*/
 .skill-heading span{
     font-weight: 400;
     font-size: 1.5rem;
