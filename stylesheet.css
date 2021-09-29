@@ -367,13 +367,13 @@ nav .menu-btn{
     display: none;
 }
 
-@media(min-width:2200px){
+@media(min-height:2200px){
     .content{
         width: 50%;
     }
     .model{
-        width: 300px;
-        height: 400px;
+        width: 400px;
+        height: 200px;
     }
     .main-text,.model{
         margin: 10px;
@@ -383,18 +383,18 @@ nav .menu-btn{
 
     }
     .model img{
-        margin-top: -250px;
+        margin-top: -900px;
         margin-bottom: 7px;
     }
     .main-text h1{
-        margin-top: -150px;
+        margin-top: -750px;
         margin-bottom: 10px;
     }
     #skills{
         width: 100%;
         justify-content: space-between;
         padding-left: 40px;
-        margin-top: -200px;
+        margin-top: -1400px;
     }
     .box1,.box2,.box3 {
         flex-grow: 0.5; 
@@ -407,7 +407,7 @@ nav .menu-btn{
     }
     .model{
         width: 400px;
-        height: 400px;
+        height: 200px;
     }
     .main-text,.model{
         margin: 10px;
