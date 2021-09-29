@@ -367,6 +367,40 @@ nav .menu-btn{
     display: none;
 }
 
+@media(min-width:1900px){
+    .content{
+        width: 50%;
+    }
+    .model{
+        width: 300px;
+        height: 400px;
+    }
+    .main-text,.model{
+        margin: 10px;
+    }
+    .main-text h1{
+        font-size: 3rem;
+
+    }
+    .model img{
+        margin-top: -350px;
+        margin-bottom: 7px;
+    }
+    .main-text h1{
+        margin-top: -300px;
+        margin-bottom: 10px;
+    }
+    #skills{
+        width: 100%;
+        justify-content: space-between;
+        padding-left: 40px;
+        margin-top: -450px;
+    }
+    .box1,.box2,.box3 {
+        flex-grow: 0.5; 
+    }
+    
+}
 @media(max-width:1140px){
     .content{
         width: 100%;
@@ -478,14 +512,7 @@ nav .menu-btn{
         justify-content: space-between;
         padding-left: 40px;
     }
-    .skill-image{
-        width: 40%;
-        height: 300px;
-    }
-    .skill-image img{
-        object-fit:cover;
-        object-position: left;
-    }
+
     .contact{
         font-size: 1rem;
         text-align: center;

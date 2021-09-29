@@ -1,0 +1,38 @@
+#identity{
+    overflow:auto;
+}
+#image{
+    float: left;
+    padding: 0px 20px 20px 20px;
+}
+text{
+    color:blue;
+    font-size:large;
+}
+h1{
+    color:green;
+}
+h2{
+    color:mediumvioletred;
+}
+h3{
+    color: crimson;
+}
+.thumbnail{
+    display:inline-block;
+    height: 450px;
+    padding:4px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid;
+    text-align: center;
+    color:black;
+    margin:50px;
+    }
+    a:link{color:tomato;text-decoration:underline;}
+        a:visited{color:purple;text-decoration: none;}
+        a:active{background-color: yellow;text-decoration: none;}
+        a:hover{color:red; text-decoration: none;}
+        p{
+            font-size: large;
+        }
