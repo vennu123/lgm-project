@@ -162,8 +162,8 @@ body .wrap{
     position: relative;
 }
 .bar{
-    display: inline-block;
-    /* flex-direction: column; */
+    display: flex;
+    flex-direction: column; 
     margin: 25px 0px;
     width: 100%;
 }
@@ -175,12 +175,12 @@ body .wrap{
     background:rgb(43, 42, 42);
     border-radius: 25px;
 }
-.bar span:before{
+.bar span::before{
     position: absolute;
     content: '';
     top: 6px;
     left: 5px;
-    width:65% ;
+    width:45% ;
     height: 50%;
     background: linear-gradient(to left,rgb(236, 174, 236),rgb(214, 98, 214) );
     border-radius:50px;
@@ -191,12 +191,12 @@ body .wrap{
      width:0;
     }
 }
-.bar:nth-child(1) span::before{width:70%; } 
-.bar:nth-child(2) span::before{width:60% ;}
-.bar:nth-child(3) span::before{width:100%}
-.bar:nth-child(4) span::before{width:90%;}
-.bar:nth-child(5) span::before{width:65%;}
-.bar:nth-child(6) span:before{width:60%;}
+.bar:nth-child(1) span::before{width:70% ;} 
+.bar:nth-child(2) span::before{width:30% ;}
+.bar:nth-child(3) span::before{width:30% ;}
+.bar:nth-child(4) span::before{width:60%;}
+.bar:nth-child(5) span::before{width: 70%;}
+
 /* stylling sample works */
 #sampleworks{
     display: flex;
@@ -352,6 +352,10 @@ body .wrap{
     background-color: transparent;
     text-align: center;
     color: #242425;
+}
+#contact .contact-input input:hover{
+    box-shadow: 5px 10px 30px rgba(37, 37, 37, 0.5);
+    transition: all ease 0.3s;
 }
 /* stylling footer section */
 .social img{
@@ -520,5 +524,10 @@ nav .menu-btn{
     #skills{
         margin: 0px;
     }
+}
+footer .social img:hover{
+    transform: translate3d(-10px,-10px ,-20px);
+    box-shadow: 5px 10px 30px rgba(37, 37, 37, 0.5);
+    transition: all ease 0.3s;
 }
 

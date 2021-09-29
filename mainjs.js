@@ -2,9 +2,12 @@
        function  validateform(n,e,m)
         {
             
-            if(n.value==" "|| e.value==" "){
-                alert("entries cannot be empty");
+            if(n.value==""){
+                alert("user name cannot be empty");
 
+            }
+            if(e.value==""){
+                alert("enter correct email id");
             }
              if(m.value.length<10){
                 alert("mobile number should contain 10 digits");
