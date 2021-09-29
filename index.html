@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- fav-icon -->
+    <link rel="stylesheet" type="text/css" href="stylesheet.css"  />
+    <link rel="shortcut icon" href="./images/vicon.png" />
+    
+</head>
+<body> 
+    <!-- main -->
+    <section id="main">
+        <!-- navigation -->
+        <nav>
+            <!-- logo -->
+            <a href="#" class="logo">
+                <img src="./images/iconk.png" height="30px" width="30px">
+            </a>
+            <!-- menu button -->
+            <input class="menu-btn" type="checkbox" id="menu-btn">
+            <label class="menu-icon" for="menu-btn">
+                <span class="nav-icon"></span>
+
+            </label>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+               
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#sampleworks">Sampleworks</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#follow-me">follow-me</a></li>
+             </ul>
+             <!-- say hello -->
+             <a href="#" class="hey">say hello..!</a>
+        </nav>
+        </section>
+        <!-- content -->
+        <section id="home">
+        <div class="content">
+            <!-- model -->
+            <div class="model">
+            <img src="./images/image1.jfif" height="200px" width="200px"  />
+            </div>
+        <div class="main-text">
+           <br><br><h1>Hello..!I am Kshithija Vennu</h1>
+            <p>I am a student  </p>
+            <!-- btn -->
+            <a href="./cv/kshithija cv (1).pdf" download="cv"><button class="download-cv">download cv</button></a>
+        <br><button class="portfolio-btn">See my portfolio</button>
+        </div>
+        </div>
+        </section>
+        
+        <!-- skills -->
+       
+        <section id="skills">
+        <div class="wrap">
+            <br><br><h1>My Skills</h1>
+            <div class="bar">
+                <h4>HTML</h4>
+                <span></span>
+            </div>
+            <div class="bar">
+                <h4>CSS</h4>
+                <span></span>
+            </div>
+            <div class="bar">
+                <h4>JAVASCRIPT</h4>
+                <span></span>
+            </div>
+            <div class="bar">
+                <h4>C</h4>
+                <span></span>
+            </div>
+            <div class="bar">
+                <h4>C++</h4>
+                <span></span>
+            </div>
+            <div class="bar">
+                <h4>JAVA</h4>
+                <span></span>
+            </div>
+        
+        </div>
+        </section>
+        <!-- </section> -->
+        <!-- writing sample works -->
+        <section id="sampleworks">
+            <!-- heading -->
+            <div class="sw-heading">
+                <span>sample works</span>
+                <h3>recently done projects </h3>
+            </div></section>
+            <!-- images -->
+            <div class="box-container">
+                <!-- project 1 -->
+            <div class="box1">
+              <span>1</span>
+              <p class="heading">anime</p>
+              <p class="details">These are some animes which are very popular .I would like to recomed them if you ask me</p>
+             <a href="./projects/anime.html"> <button>click here</button></a>
+            </div>
+            <!-- project 2 -->
+            <div class="box2">
+               <span>2</span>
+               <p class="heading">restaurant</p>
+               <p class="details">This contains a model restaurant website that i developed using front end</p>
+               <a href="./projects/restaurant.html"><button>click here</button></a>
+            </div>
+            <!-- project 3 -->
+            <div class="box3">
+                <span>3</span>
+                <p class="heading">chapati</p>
+                <p class="details">This contains a brief procedure on the process of making a soft chapati</p>
+                <a href="./projects/chapati.html"><button>click here</button></a>
+            </div>
+            </div>
+            <!-- contact -->
+                <section id="contact">
+                    <h3>To become my Team Member</h3>
+                    <img src="./images/contact3.jpg">
+                <div class="contact-input">
+                    <form name="myform" action="#">
+                    name: <input type="text" placeholder="your full name" name="n" >
+                    <br><br>mobile number:<input type="text" placeholder="mobile number" name="m">  
+                    <br><br>email: <input type="text" placeholder="abc@gmail.com" name="e">
+                    <br><br><button type="submit" value="register" name="submit" onclick="validateform(document.myform.n,document.myform.e,
+                    document.myform.m)" >submit</button>
+                </form>
+                </div>
+        </section>
+        <section id="follow-me">
+            <!-- footer> -->
+            <footer>
+                <div>
+                    <a href="#">FOLLOW ME</a>
+                </div>
+                <div class="social">
+                    <a href="https://github.com/vennu123">
+                        <img src="images/github.png" alt="" />
+                    </a>
+                    <a href="https://www.instagram.com/this_z_me_/">
+                        <img src="images/instagram.png" alt="" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/vennu-kshithija-431a8a1ba">
+                        <img  src="images/linkedin.png" alt="" />
+                    </a>
+                </div>
+
+            </footer>
+            </section>
+            <script src="mainjs.js"></script>      
+</body>
+</html>

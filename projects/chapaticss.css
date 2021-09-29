@@ -1,0 +1,49 @@
+h1{
+    color:white;
+    font-weight: normal;
+    letter-spacing: 4px;
+    margin-bottom: 1px;
+    text-transform: uppercase;
+}
+h2{
+    color:green;
+}
+#background-image{
+background-image:url(https://tse3.mm.bing.net/th?id=OIP.zffW2wu2Cbj4hqZOB-WoBAHaHa&pid=Api&P=0&w=300&h=300);
+max-width:100%;
+height:350px;
+padding-top:50px;
+color:lightgray;
+margin-top:25px;   
+}
+#content{
+    background-color: gray;
+    max-width: 300px;
+    padding:30px 20px;
+    margin-top: 70px;
+    
+    }
+    tr{
+        border-color:red;
+        color: rgb(216, 154, 112);
+        font-size: medium;
+    }
+    ul{
+        color: rgb(233, 27, 226);
+        font-size: large;
+    }
+    .thumbnail{
+        display:inline-block;
+        height: 450px;
+        padding:4px;
+        margin-bottom: 20px;
+        background-color: rgb(241, 211, 211);
+        border: 1px solid;
+        text-align: center;
+        color:black;
+        margin:50px;
+        }
+        a:link{color:tomato;text-decoration:underline;}
+        a:visited{color:purple;text-decoration: none;}
+        a:active{background-color: yellow;text-decoration: none;}
+        a:hover{color:red; text-decoration: none;}
