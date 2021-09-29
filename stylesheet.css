@@ -16,7 +16,7 @@ ul{
 a{
     text-decoration: none;
 }
-main{
+#main{
     width: 100%;
     height: 100vh;
     position: relative;
@@ -119,7 +119,40 @@ nav ul li a:hover{
     transition: all ease 0.3s;
     cursor: pointer;
 }
-/* stylling skills section */
+/*#skills{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: auto auto 50px auto;
+    margin-top: -650px;
+}
+/*.skill-image {
+    width: 600px;
+    height: 600px;
+
+}
+.skill-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    float: right;
+}*/
+.skill-heading span{
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding-left: 10px;
+}
+.s-box-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+    font-size: 1.1rem;
+}
 .wrap  h1 {
     color:purple;
     font-size: 2rem;
@@ -127,7 +160,11 @@ nav ul li a:hover{
     display: inline-block;
     margin-top: -600px;
 }
-
+.s-box-text h4{
+    color:black;
+    margin: 0px;
+    font-weight: 400;
+}
 body .wrap{
     background-color:transparent;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -135,19 +172,13 @@ body .wrap{
 }
 .wrap{
     max-width:60%;
-    margin:550px auto 0;   
+    margin:550px auto 0;
+    margin-top: -150px;  
 }
 .bar{
-    color:rgb(0, 0, 0);
-    letter-spacing: 1px;
-    font-weight: 500;
-    font-size: 16px;
-    position: relative;
-}
-.bar{
-    display: inline-block;
-    margin-bottom:15px;
-    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0px;
     width: 100%;
 }
 .bar span{
@@ -197,11 +228,11 @@ body .wrap{
 }
 .sw-heading h3{
     color:purple;
-    font-family: cursive;
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 0px;
     font-weight: 400;
     letter-spacing: 1px;
+    font-family: monospace;
 }
 .box1,.box2,.box3{
     width: 400px;
@@ -253,7 +284,6 @@ body .wrap{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
    
 }
@@ -357,6 +387,7 @@ footer a{
 nav .menu-btn{
     display: none;
 }
+
 @media(max-width:1140px){
     .content{
         width: 100%;
@@ -467,7 +498,14 @@ nav .menu-btn{
         width: 100%;
         justify-content: space-between;
         padding-left: 40px;
-
+    }
+    .skill-image{
+        width: 40%;
+        height: 300px;
+    }
+    .skill-image img{
+        object-fit:cover;
+        object-position: left;
     }
     .contact{
         font-size: 1rem;
@@ -497,6 +535,12 @@ nav .menu-btn{
 @media(max-width:530px){
     .contact-input{
         width: 90%;
+    }
+    .skill-image{
+        display: none;
+    }
+    #skills{
+        margin: 0px;
     }
 }
 
