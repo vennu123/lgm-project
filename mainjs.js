@@ -10,7 +10,7 @@
                 alert("mobile number should contain 10 digits");
             }
             if( m.value.length==10){
-                alert("your account is created successfully");
+                alert("thanks for contacting");
                 document.myform.e.focus();
                 document.myform.n.focus();
                 document.myform.m.focus();

@@ -155,8 +155,15 @@ body .wrap{
     margin-top: -150px;  
 }
 .bar{
-    display: flex;
-    flex-direction: column;
+    color: black;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 12px;
+    position: relative;
+}
+.bar{
+    display: inline-block;
+    /* flex-direction: column; */
     margin: 25px 0px;
     width: 100%;
 }
@@ -168,12 +175,12 @@ body .wrap{
     background:rgb(43, 42, 42);
     border-radius: 25px;
 }
-.bar span::before{
+.bar span:before{
     position: absolute;
     content: '';
     top: 6px;
     left: 5px;
-    width: 80%;
+    width:65% ;
     height: 50%;
     background: linear-gradient(to left,rgb(236, 174, 236),rgb(214, 98, 214) );
     border-radius:50px;
@@ -186,10 +193,10 @@ body .wrap{
 }
 .bar:nth-child(1) span::before{width:70%; } 
 .bar:nth-child(2) span::before{width:60% ;}
-.bar:nth-child(3) span::before{width: 50%;}
-.bar:nth-child(4) span::before{width: 70%;}
-.bar:nth-child(5) span::before{width: 65%;}
-.bar:nth-child(6) span::before{width: 60%;}
+.bar:nth-child(3) span::before{width:100%}
+.bar:nth-child(4) span::before{width:90%;}
+.bar:nth-child(5) span::before{width:65%;}
+.bar:nth-child(6) span:before{width:60%;}
 /* stylling sample works */
 #sampleworks{
     display: flex;
